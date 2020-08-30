@@ -1,0 +1,19 @@
+#ARTHIMETIC OPERATIONS
+#INPUT OF TWO VALUES
+x = int(input("enter a number : "))
+y = int(input("enter a number : "))
+print('x + y =',x+y)
+print('x - y =',x-y)
+print('x * y =',x*y)
+print('x / y =',x/y)
+print('x % y =',x%y)
+
+OUTPUT:
+enter a number : 2
+
+enter a number : 4
+x + y = 6
+x - y = -2
+x * y = 8
+x / y = 0.5
+x % y = 2
