@@ -1,0 +1,23 @@
+# SUM OF DIGITS AND CHECK IF IT IS AMSTRONG NUMBER
+print("enter a number :")
+n=int(input())
+ori= n
+sum=0
+add=0
+while(n>0):
+    rem=n%10
+    sum=sum+rem*rem*rem
+    add=int(add+rem)
+    n=int(n/10)
+print("sum of the digits is : ",add) 
+if sum==ori:
+    print(ori,"is amstrong number")
+else:
+    print(ori,"is not amstorng number ")
+
+
+OUTPUT :
+enter a number :
+ 407
+sum of the digits is :  11
+407 is amstrong number
