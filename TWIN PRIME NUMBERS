@@ -1,0 +1,23 @@
+#TWIN PRIME NUMBERS
+def prime(x):
+    n=0
+    for i in range(2,x//2+1):
+        if x%i==0:
+            n=1
+            break
+        return n
+n1=int(input("enter the starting number : "))
+n2=int(input("enter the ending number : "))
+print("twin prime numbers are :")
+for i in range(n1,n2+1):
+    if prime(i)==0 and prime(i+2)==0:
+        print(i," " ,i+2)
+        
+        OUTPUT:
+        enter the starting number : 1
+
+enter the ending number : 10
+twin prime numbers are :
+5   7
+7   9
+9   11
